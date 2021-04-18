@@ -23,6 +23,7 @@ def hello():
     html = f"<html><head></head><body><h1>Hello World!</h1></body>" \
            f"<h2>Server Time: {curr_clock}</h2>" \
            f"<h2>Visitor Count: {count}</h2>" \
+           f"<h2>Hostname: {myhost}</h2>" \
            f"<h2>App_is_dockerized: {str(dockerized)}</h2>" \
            f"</html>"
     return html
